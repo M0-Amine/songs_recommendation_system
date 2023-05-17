@@ -1,24 +1,44 @@
-This is a dataset of top 50 Spotify music from 2010 to 2019. 
-Originally published at [Kaggle:Top Spotify songs from 2010-2019 - BY YEAR](https://www.kaggle.com/leonardopena/top-spotify-songs-from-20102019-by-year) which is scraped from [Spotify: Organize your music](http://organizeyourmusic.playlistmachinery.com/)
+# Content-Based Song Recommendation System
 
-After cleaning the data, it contains 14 columns and 603 rows of data.
+This project is a content-based song recommendation system implemented using k-nearest neighbors (KNN) algorithm in Python. The system recommends songs to users based on the similarity of their features such as genre, artist, energy, loudness, valence, popularity, etc.
 
-The type of attributes:
-  'title' is categorical.
-  'artist' is categorical.
-  'genre of the track' is categorical.
-  'year' is quantitative.
-  'Beats per minute' is quantitative.
-  'energy' is quantitative.
-  'Danceability' is quantitative.
-  'Loudness/dB' is quantitative.
-  'Liveness' is quantitative.
-  'Valence' is quantitative.
-  'Length' is quantitative.
-  'Acousticness' is quantitative.
-  'Speechiness' is quantitative.
-  'Popularity' is quantitative.
-  
-Questions and tasks related to the dataset:
-  1. Is there any important characteristics (eg:Beats per minute) that make them top 50 songs in the year?
-  2. What is the most popular music genre in these years and is there any trend for the popularity?
+# Dataset
+
+The dataset used for this project is stored in JSON format and contains information about songs. Each song entry includes the following features:
+
+    'Title' is categorical.
+    'Artist' is categorical.
+    'Genre of the track' is categorical.
+    'Year' is quantitative.
+    'BeatsPerMinute' is quantitative.
+    'Energy' is quantitative.
+    'Danceability' is quantitative.
+    'Loudness/dB' is quantitative.
+    'Liveness' is quantitative.
+    'Valence' is quantitative.
+    'Length' is quantitative.
+    'Acousticness' is quantitative.
+    'Speechiness' is quantitative.
+    'Popularity' is quantitative.
+
+# Results
+The final outcome of the system is a stack or playlist that
+contains all the newly suggested songs determined by the K-
+Nearest Neighbors algorithm.
+ideally, the system will make whole playlists for the user based on his
+listening history, and potentially introduce new tracks from
+genres that the user may not typically explore.
+
+# Documentation
+Additional documentation and explanations about the project can be found in the 'docs' directory. It includes a detailed explanation of the algorithm, the dataset format, and other relevant information.
+
+# Collaborators
+Collaboratively developed by Mohamed Amine SALIMI (M0-Amine) and Khaoula JELLAL, this project serves as an assignment for the 'Algorithmique II' course in the first year at UM6P-CS School Of Computer Science.
+
+# Results
+The final outcome of the system is a stack or playlist that
+contains all the newly suggested songs determined by the K-
+Nearest Neighbors algorithm.
+ideally, the system will make whole playlists for the user based on his
+listening history, and potentially introduce new tracks from
+genres that the user may not typically explore.
