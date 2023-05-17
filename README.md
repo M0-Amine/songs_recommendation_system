@@ -34,11 +34,3 @@ Additional documentation and explanations about the project can be found in the 
 
 # Collaborators
 Collaboratively developed by Mohamed Amine SALIMI (M0-Amine) and Khaoula JELLAL, this project serves as an assignment for the 'Algorithmique II' course in the first year at UM6P-CS School Of Computer Science.
-
-# Results
-The final outcome of the system is a stack or playlist that
-contains all the newly suggested songs determined by the K-
-Nearest Neighbors algorithm.
-ideally, the system will make whole playlists for the user based on his
-listening history, and potentially introduce new tracks from
-genres that the user may not typically explore.
