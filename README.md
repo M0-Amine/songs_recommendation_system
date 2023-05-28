@@ -16,7 +16,6 @@ The dataset used for this project is stored in JSON format and contains informat
     'Loudness/dB' is quantitative.
     'Liveness' is quantitative.
     'Valence' is quantitative.
-    'Length' is quantitative.
     'Acousticness' is quantitative.
     'Speechiness' is quantitative.
     'Popularity' is quantitative.
