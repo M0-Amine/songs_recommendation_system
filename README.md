@@ -1,6 +1,6 @@
 # Content-Based Song Recommendation System
 
-This project is a content-based song recommendation system implemented using k-nearest neighbors (KNN) algorithm in Python. The system recommends songs to users based on the similarity of their features such as genre, artist, energy, loudness, valence, popularity, etc.
+This project is a content-based song recommendation system implemented using Euclidean distance in Python. The system recommends songs to users based on the similarity of their features such as genre, artist, energy, loudness, valence, popularity, etc.
 
 # Dataset
 
@@ -21,9 +21,8 @@ The dataset used for this project is stored in JSON format and contains informat
     'Popularity' is quantitative.
 
 # Results
-The final outcome of the system is a stack or playlist that
-contains all the newly suggested songs determined by the K-
-Nearest Neighbors algorithm.
+The final outcome of the system is a playlist that
+contains all the newly suggested songs determined by the Euclidean distance algorithm.
 ideally, the system will make whole playlists for the user based on his
 listening history, and potentially introduce new tracks from
 genres that the user may not typically explore.
